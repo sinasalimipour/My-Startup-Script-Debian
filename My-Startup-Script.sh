@@ -126,9 +126,9 @@ echo "%%%### Update and Upgrade End ###%%%"
 
 echo "%%%### Install Python Start ###%%%"
 echo "%%%### Install Python Start ###%%%"
-#scand python Install (start)
+# python Install (start)
 apt install python3 -y
-#scand python Install (end)
+# python Install (end)
 echo "%%%### Install Python End ###%%%"
 echo "%%%### Install Python End ###%%%"
 
@@ -136,21 +136,21 @@ echo "%%%### Install Python End ###%%%"
 
 echo "%%%### Install SSH Start ###%%%"
 echo "%%%### Install SSH Start ###%%%"
-#scand ssh Install (start)
+# ssh Install (start)
 sudo apt-get install ssh -y
 sudo systemctl enable ssh
 sudo service ssh start
-#scand ssh Install (end)
+# ssh Install (end)
 echo "%%%### Install SSH End ###%%%"
 echo "%%%### Install SSH End ###%%%"
 
 
 echo "%%%### Install Xrdp Start ###%%%"
 echo "%%%### Install Xrdp Start ###%%%"
-#scand ssh Install (end)
+# Xrdp Install (end)
 sudo apt install xrdp -y
 sudo service xrdp start
-#scand ssh Install (end)
+# Xrdp Install (end)
 echo "%%%### Install Xrdp End ###%%%"
 echo "%%%### Install Xrdp End ###%%%"
 
