@@ -147,7 +147,7 @@ echo "%%%### Install SSH End ###%%%"
 
 echo "%%%### Install Xrdp Start ###%%%"
 echo "%%%### Install Xrdp Start ###%%%"
-# Xrdp Install (end)
+# Xrdp Install (start)
 sudo apt install xrdp -y
 sudo service xrdp start
 # Xrdp Install (end)
@@ -156,9 +156,13 @@ echo "%%%### Install Xrdp End ###%%%"
 
 
 
-
-
-
+echo "%%%### Install VLC Start ###%%%"
+echo "%%%### Install VLC Start ###%%%"
+# VLC Install (start)
+sudo apt-get install VLC
+# VLC Install (end)
+echo "%%%### Install VLC End ###%%%"
+echo "%%%### Install VLC End ###%%%"
 
 
 
