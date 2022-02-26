@@ -116,14 +116,21 @@ echo "%%%### Script Started ###%%%"
 
 echo "%%%### Update and Upgrade Start ###%%%"
 echo "%%%### Update and Upgrade Start ###%%%"
+echo "%%%### Update and Upgrade Start ###%%%"
+echo "%%%### Update and Upgrade Start ###%%%"
 #first update and upgrade (start)
 sudo apt-get update && sudo apt-get upgrade -y
 #first update and upgrade (end)
 echo "%%%### Update and Upgrade End ###%%%"
 echo "%%%### Update and Upgrade End ###%%%"
+echo "%%%### Update and Upgrade End ###%%%"
+echo "%%%### Update and Upgrade End ###%%%"
 
 
 
+
+echo "%%%### Install Python Start ###%%%"
+echo "%%%### Install Python Start ###%%%"
 echo "%%%### Install Python Start ###%%%"
 echo "%%%### Install Python Start ###%%%"
 # python Install (start)
@@ -131,9 +138,14 @@ apt install python3 -y
 # python Install (end)
 echo "%%%### Install Python End ###%%%"
 echo "%%%### Install Python End ###%%%"
+echo "%%%### Install Python End ###%%%"
+echo "%%%### Install Python End ###%%%"
 
 
 
+
+echo "%%%### Install SSH Start ###%%%"
+echo "%%%### Install SSH Start ###%%%"
 echo "%%%### Install SSH Start ###%%%"
 echo "%%%### Install SSH Start ###%%%"
 # ssh Install (start)
@@ -143,8 +155,15 @@ sudo service ssh start
 # ssh Install (end)
 echo "%%%### Install SSH End ###%%%"
 echo "%%%### Install SSH End ###%%%"
+echo "%%%### Install SSH End ###%%%"
+echo "%%%### Install SSH End ###%%%"
 
 
+
+
+
+echo "%%%### Install Xrdp Start ###%%%"
+echo "%%%### Install Xrdp Start ###%%%"
 echo "%%%### Install Xrdp Start ###%%%"
 echo "%%%### Install Xrdp Start ###%%%"
 # Xrdp Install (start)
@@ -153,9 +172,14 @@ sudo service xrdp start
 # Xrdp Install (end)
 echo "%%%### Install Xrdp End ###%%%"
 echo "%%%### Install Xrdp End ###%%%"
+echo "%%%### Install Xrdp End ###%%%"
+echo "%%%### Install Xrdp End ###%%%"
 
 
 
+
+echo "%%%### Install VLC Start ###%%%"
+echo "%%%### Install VLC Start ###%%%"
 echo "%%%### Install VLC Start ###%%%"
 echo "%%%### Install VLC Start ###%%%"
 # VLC Install (start)
@@ -163,7 +187,26 @@ sudo apt-get install VLC
 # VLC Install (end)
 echo "%%%### Install VLC End ###%%%"
 echo "%%%### Install VLC End ###%%%"
+echo "%%%### Install VLC End ###%%%"
+echo "%%%### Install VLC End ###%%%"
 
+
+
+
+echo "%%%### Install vivaldi browser (my favorite browser) Start ###%%%"
+echo "%%%### Install vivaldi browser (my favorite browser) Start ###%%%"
+echo "%%%### Install vivaldi browser Start ###%%%"
+echo "%%%### Install vivaldi browser Start ###%%%"
+# vivaldi browser Install (start)
+sudo apt install wget -y
+wget -qO- https://repo.vivaldi.com/archive/linux_signing_key.pub | gpg --dearmor | sudo dd of=/usr/share/keyrings/vivaldi-browser.gpg
+echo "deb [signed-by=/usr/share/keyrings/vivaldi-browser.gpg arch=$(dpkg --print-architecture)] https://repo.vivaldi.com/archive/deb/ stable main" | sudo dd of=/etc/apt/sources.list.d/vivaldi-archive.list
+sudo apt update && sudo apt install vivaldi-stable -y
+# vivaldi browser (end)
+echo "%%%### Install vivaldi browser End ###%%%"
+echo "%%%### Install vivaldi browser End ###%%%"
+echo "%%%### Install vivaldi browser End ###%%%"
+echo "%%%### Install vivaldi browser End ###%%%"
 
 
 
