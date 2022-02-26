@@ -82,38 +82,18 @@ echo "
                                                         ╚════██║██║██║╚██╗██║██╔══██║╚════██║██╔══██║██║     ██║██║╚██╔╝██║██║██╔═══╝ ██║   ██║██╔══██╗
                                                         ███████║██║██║ ╚████║██║  ██║███████║██║  ██║███████╗██║██║ ╚═╝ ██║██║██║     ╚██████╔╝██║  ██║
                                                         ╚══════╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝╚═╝     ╚═╝╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝
-                                                                                               "
-                                                                                                                                                                                                       
-                                                                                     
+                                                                                               "                                                                                                                                                                                                                                                                                           
 echo "
                                        hi this script is for your new setup for intall new apps in sec you can change any think need our dont need to make it better 
                                                                                          </> with ❤️ by sina"
-
-
-
-
-
-                                                                                               
-
-
-
-
-
-
-
-
-
-
-
-
-
+####
 echo "%%%### Script Started ###%%%"
 echo "%%%### Script Started ###%%%"
 echo "%%%### Script Started ###%%%"
 echo "%%%### Script Started ###%%%"
-
-
-
+####
+####
+####
 echo "%%%### Update and Upgrade Start ###%%%"
 echo "%%%### Update and Upgrade Start ###%%%"
 echo "%%%### Update and Upgrade Start ###%%%"
@@ -125,31 +105,29 @@ echo "%%%### Update and Upgrade End ###%%%"
 echo "%%%### Update and Upgrade End ###%%%"
 echo "%%%### Update and Upgrade End ###%%%"
 echo "%%%### Update and Upgrade End ###%%%"
-
-
-
-
+####
+####
+####
 echo "%%%### Install Python Start ###%%%"
 echo "%%%### Install Python Start ###%%%"
 echo "%%%### Install Python Start ###%%%"
 echo "%%%### Install Python Start ###%%%"
 # python Install (start)
-apt install python3 -y
+apt install python3
 # python Install (end)
 echo "%%%### Install Python End ###%%%"
 echo "%%%### Install Python End ###%%%"
 echo "%%%### Install Python End ###%%%"
 echo "%%%### Install Python End ###%%%"
-
-
-
-
+####
+####
+####
 echo "%%%### Install SSH Start ###%%%"
 echo "%%%### Install SSH Start ###%%%"
 echo "%%%### Install SSH Start ###%%%"
 echo "%%%### Install SSH Start ###%%%"
 # ssh Install (start)
-sudo apt-get install ssh -y
+sudo apt-get install ssh
 sudo systemctl enable ssh
 sudo service ssh start
 # ssh Install (end)
@@ -157,27 +135,24 @@ echo "%%%### Install SSH End ###%%%"
 echo "%%%### Install SSH End ###%%%"
 echo "%%%### Install SSH End ###%%%"
 echo "%%%### Install SSH End ###%%%"
-
-
-
-
-
+####
+####
+####
 echo "%%%### Install Xrdp Start ###%%%"
 echo "%%%### Install Xrdp Start ###%%%"
 echo "%%%### Install Xrdp Start ###%%%"
 echo "%%%### Install Xrdp Start ###%%%"
 # Xrdp Install (start)
-sudo apt install xrdp -y
+sudo apt install xrdp
 sudo service xrdp start
 # Xrdp Install (end)
 echo "%%%### Install Xrdp End ###%%%"
 echo "%%%### Install Xrdp End ###%%%"
 echo "%%%### Install Xrdp End ###%%%"
 echo "%%%### Install Xrdp End ###%%%"
-
-
-
-
+####
+####
+####
 echo "%%%### Install VLC Start ###%%%"
 echo "%%%### Install VLC Start ###%%%"
 echo "%%%### Install VLC Start ###%%%"
@@ -189,10 +164,9 @@ echo "%%%### Install VLC End ###%%%"
 echo "%%%### Install VLC End ###%%%"
 echo "%%%### Install VLC End ###%%%"
 echo "%%%### Install VLC End ###%%%"
-
-
-
-
+####
+####
+####
 echo "%%%### Install vivaldi browser (my favorite browser) Start ###%%%"
 echo "%%%### Install vivaldi browser (my favorite browser) Start ###%%%"
 echo "%%%### Install vivaldi browser Start ###%%%"
@@ -207,260 +181,22 @@ echo "%%%### Install vivaldi browser End ###%%%"
 echo "%%%### Install vivaldi browser End ###%%%"
 echo "%%%### Install vivaldi browser End ###%%%"
 echo "%%%### Install vivaldi browser End ###%%%"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+####
+####
+####
+####
+####
+####
 echo "%%%### Script Ended ###%%%"
 echo "%%%### Script Ended ###%%%"
 echo "%%%### Script Ended ###%%%"
 echo "%%%### Script Ended ###%%%"
-
-
-
-
+####
+####
+####
+####
+####
+####
 echo "
                                                                                                   ,&@@#                                                                     
                                                                                             .%@@@@@(..&@@@@(                                                                                          
@@ -543,27 +279,5 @@ echo "
                                                                                 / / __/ __ \/ __ \/ __  / __ \/ / / / _ \
                                                                                / /_/ / /_/ / /_/ / /_/ / /_/ / /_/ /  __/
                                                                                \____/\____/\____/\__,_/_.___/\__, /\___/ 
-                                                                                                            /____/       
-                                                     
+                                                                                                            /____/                                                          
                                                                                                "                                                                     
-                                                 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
