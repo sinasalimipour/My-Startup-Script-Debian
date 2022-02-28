@@ -185,6 +185,8 @@ echo "%%%### Install vivaldi browser End ###%%%"
 ####
 ####
 ####
+sudo apt install snapd
+sudo snap install barrier
 ####
 ####
 ####
