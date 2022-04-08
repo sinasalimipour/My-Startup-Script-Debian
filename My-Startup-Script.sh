@@ -109,17 +109,17 @@ echo "%%%### Update and Upgrade End ###%%%"
 ####
 ####
 ####
-echo "%%%### Install Python Start ###%%%"
-echo "%%%### Install Python Start ###%%%"
-echo "%%%### Install Python Start ###%%%"
-echo "%%%### Install Python Start ###%%%"
+echo "%%%### Install Need Apps Start ###%%%"
+echo "%%%### Install Need Apps Start ###%%%"
+echo "%%%### Install Need Apps Start ###%%%"
+echo "%%%### Install Need Apps Start ###%%%"
 # python Install (start)
-apt install python3
+sudo apt-get install python3 VLC nano vim barrier snapd steam -y
 # python Install (end)
-echo "%%%### Install Python End ###%%%"
-echo "%%%### Install Python End ###%%%"
-echo "%%%### Install Python End ###%%%"
-echo "%%%### Install Python End ###%%%"
+echo "%%%### Install Need Apps End ###%%%"
+echo "%%%### Install Need Apps End ###%%%"
+echo "%%%### Install Need Apps End ###%%%"
+echo "%%%### Install Need Apps End ###%%%"
 ####
 ####
 ####
@@ -152,22 +152,6 @@ echo "%%%### Install Xrdp End ###%%%"
 echo "%%%### Install Xrdp End ###%%%"
 echo "%%%### Install Xrdp End ###%%%"
 ####
-####
-####
-echo "%%%### Install VLC Start ###%%%"
-echo "%%%### Install VLC Start ###%%%"
-echo "%%%### Install VLC Start ###%%%"
-echo "%%%### Install VLC Start ###%%%"
-# VLC Install (start)
-sudo apt-get install VLC
-# VLC Install (end)
-echo "%%%### Install VLC End ###%%%"
-echo "%%%### Install VLC End ###%%%"
-echo "%%%### Install VLC End ###%%%"
-echo "%%%### Install VLC End ###%%%"
-####
-####
-####
 echo "%%%### Install vivaldi browser (my favorite browser) Start ###%%%"
 echo "%%%### Install vivaldi browser (my favorite browser) Start ###%%%"
 echo "%%%### Install vivaldi browser Start ###%%%"
@@ -182,23 +166,6 @@ echo "%%%### Install vivaldi browser End ###%%%"
 echo "%%%### Install vivaldi browser End ###%%%"
 echo "%%%### Install vivaldi browser End ###%%%"
 echo "%%%### Install vivaldi browser End ###%%%"
-####
-####
-####
-sudo apt install snapd
-sudo snap install barrier
-####
-####
-####
-echo "%%%### Script Ended ###%%%"
-echo "%%%### Script Ended ###%%%"
-echo "%%%### Script Ended ###%%%"
-echo "%%%### Script Ended ###%%%"
-####
-####
-####
-####
-
 ####
 ####
 echo "
