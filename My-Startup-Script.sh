@@ -89,11 +89,14 @@ echo "
                                        hi this script is for your new setup for intall new apps in sec you can change any think need our dont need to make it better 
                                                                                          </> with ❤️ by sina"
 ####
+sleep 2
 echo "%%%### Script Started ###%%%"
 echo "%%%### Script Started ###%%%"
 echo "%%%### Script Started ###%%%"
 echo "%%%### Script Started ###%%%"
 ####
+####
+sleep 2
 ####
 ####
 echo "%%%### Update and Upgrade Start ###%%%"
@@ -108,7 +111,7 @@ echo "%%%### Update and Upgrade End ###%%%"
 echo "%%%### Update and Upgrade End ###%%%"
 echo "%%%### Update and Upgrade End ###%%%" 
 ####
-sleep 5
+sleep 2
 ####
 echo "%%%### Install Need Apps Start ###%%%"
 echo "%%%### Install Need Apps Start ###%%%"
@@ -122,41 +125,7 @@ echo "%%%### Install Need Apps End ###%%%"
 echo "%%%### Install Need Apps End ###%%%"
 echo "%%%### Install Need Apps End ###%%%"
 ####
-####
-####
-echo "%%%### Install SSH Start ###%%%"
-echo "%%%### Install SSH Start ###%%%"
-echo "%%%### Install SSH Start ###%%%"
-echo "%%%### Install SSH Start ###%%%"
-# ssh Install (start)
-
-
-sudo systemctl start sshd.service
-user=$(whoami)
-ip=$(ip addr)
-echo "your ip is $ip"
-sudo ssh $user@localhost
-
-# ssh Install (end)
-echo "%%%### Install SSH End ###%%%"
-echo "%%%### Install SSH End ###%%%"
-echo "%%%### Install SSH End ###%%%"
-echo "%%%### Install SSH End ###%%%"
-####
-####
-####
-echo "%%%### Install Xrdp Start ###%%%"
-echo "%%%### Install Xrdp Start ###%%%"
-echo "%%%### Install Xrdp Start ###%%%"
-echo "%%%### Install Xrdp Start ###%%%"
-# Xrdp Install (start)
-sudo apt install xrdp
-sudo service xrdp start
-# Xrdp Install (end)
-echo "%%%### Install Xrdp End ###%%%"
-echo "%%%### Install Xrdp End ###%%%"
-echo "%%%### Install Xrdp End ###%%%"
-echo "%%%### Install Xrdp End ###%%%"
+sleep 2
 ####
 echo "%%%### Install vivaldi browser (my favorite browser) Start ###%%%"
 echo "%%%### Install vivaldi browser (my favorite browser) Start ###%%%"
@@ -173,7 +142,56 @@ echo "%%%### Install vivaldi browser End ###%%%"
 echo "%%%### Install vivaldi browser End ###%%%"
 echo "%%%### Install vivaldi browser End ###%%%"
 ####
+sleep 2
 ####
+echo "%%%### Install Xrdp Start ###%%%"
+echo "%%%### Install Xrdp Start ###%%%"
+echo "%%%### Install Xrdp Start ###%%%"
+echo "%%%### Install Xrdp Start ###%%%"
+# Xrdp Install (start)
+sudo apt install xrdp
+
+# Xrdp Install (end)
+echo "%%%### Install Xrdp End ###%%%"
+echo "%%%### Install Xrdp End ###%%%"
+echo "%%%### Install Xrdp End ###%%%"
+echo "%%%### Install Xrdp End ###%%%"
+####
+sleep 2
+####
+echo "%%%### Install SSH Start ###%%%"
+echo "%%%### Install SSH Start ###%%%"
+echo "%%%### Install SSH Start ###%%%"
+echo "%%%### Install SSH Start ###%%%"
+# ssh Install (start)
+sudo apt-get install ssh
+sudo systemctl start sshd.service
+
+user=$(whoami)
+ip=$(ip addr)
+
+Privateip=$(hostname -i)
+Publicip=$(curl -s https://icanhazip.com)
+
+echo "
+┌───────────────┬───────────────┐
+│   Private-ip  │   Public-ip   │
+├───────────────┼───────────────┤
+│$Privateip      │$Publicip │
+└───────────────┴───────────────┘
+
+"
+
+sudo ssh $user@localhost
+# ssh Install (end)
+echo "%%%### Install SSH End ###%%%"
+echo "%%%### Install SSH End ###%%%"
+echo "%%%### Install SSH End ###%%%"
+echo "%%%### Install SSH End ###%%%"
+####
+sleep 2
+####
+
 echo "
                                                                                                   ,&@@#                                                                     
                                                                                             .%@@@@@(..&@@@@(                                                                                          
