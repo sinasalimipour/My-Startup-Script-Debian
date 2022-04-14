@@ -108,7 +108,7 @@ echo "%%%### Update and Upgrade End ###%%%"
 echo "%%%### Update and Upgrade End ###%%%"
 echo "%%%### Update and Upgrade End ###%%%" 
 ####
-####
+sleep 5
 ####
 echo "%%%### Install Need Apps Start ###%%%"
 echo "%%%### Install Need Apps Start ###%%%"
