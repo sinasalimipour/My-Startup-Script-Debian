@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 #
 echo "
                                                                                                   ,&@@#                                                                     
@@ -106,7 +106,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 echo "%%%### Update and Upgrade End ###%%%"
 echo "%%%### Update and Upgrade End ###%%%"
 echo "%%%### Update and Upgrade End ###%%%"
-echo "%%%### Update and Upgrade End ###%%%"
+echo "%%%### Update and Upgrade End ###%%%" 
 ####
 ####
 ####
@@ -115,7 +115,7 @@ echo "%%%### Install Need Apps Start ###%%%"
 echo "%%%### Install Need Apps Start ###%%%"
 echo "%%%### Install Need Apps Start ###%%%"
 # python Install (start)
-sudo apt-get install python3 VLC nano vim barrier snapd steam discord spotify neofetch -y
+sudo apt-get install python3 VLC nano vim barrier snapd steam discord spotify neofetch ssh -y
 # python Install (end)
 echo "%%%### Install Need Apps End ###%%%"
 echo "%%%### Install Need Apps End ###%%%"
@@ -129,9 +129,14 @@ echo "%%%### Install SSH Start ###%%%"
 echo "%%%### Install SSH Start ###%%%"
 echo "%%%### Install SSH Start ###%%%"
 # ssh Install (start)
-sudo apt-get install ssh
-sudo systemctl enable ssh
-sudo service ssh start
+
+
+sudo systemctl start sshd.service
+user=$(whoami)
+ip=$(ip addr)
+echo "your ip is $ip"
+sudo ssh $user@localhost
+
 # ssh Install (end)
 echo "%%%### Install SSH End ###%%%"
 echo "%%%### Install SSH End ###%%%"
