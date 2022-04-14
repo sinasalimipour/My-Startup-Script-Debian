@@ -115,7 +115,7 @@ echo "%%%### Install Need Apps Start ###%%%"
 echo "%%%### Install Need Apps Start ###%%%"
 echo "%%%### Install Need Apps Start ###%%%"
 # python Install (start)
-sudo apt-get install python3 VLC nano vim barrier snapd steam discord spotify -y
+sudo apt-get install python3 VLC nano vim barrier snapd steam discord spotify neofetch -y
 # python Install (end)
 echo "%%%### Install Need Apps End ###%%%"
 echo "%%%### Install Need Apps End ###%%%"
