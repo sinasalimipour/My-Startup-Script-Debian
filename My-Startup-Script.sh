@@ -162,6 +162,35 @@ echo "%%%### Install driver and firmware End ###%%%"
 ####
 ####
 sleep 2
+#### activate if you need to game in this pc
+#echo "%%%### Install gaming driver Start ###%%%"
+#echo "%%%### Install gaming driver Start ###%%%"
+#echo "%%%### Install gaming driver Start ###%%%"
+#echo "%%%### Install gaming driver Start ###%%%"
+# gaming vulkan driver (start)
+#sudo apt install mesa-vulkan-drivers libvulkan1 vulkan-tools vulkan-validationlayers
+# gaming vulkan driver (end)
+#echo "%%%### Install gaming driver End ###%%%"
+#echo "%%%### Install gaming driver End ###%%%"
+#echo "%%%### Install gaming driver End ###%%%"
+#echo "%%%### Install gaming driver End ###%%%"
+####
+####
+sleep 2
+####
+echo "%%%### Install gaming driver Start ###%%%"
+echo "%%%### Install gaming driver Start ###%%%"
+echo "%%%### Install gaming driver Start ###%%%"
+echo "%%%### Install gaming driver Start ###%%%"
+# gaming vulkan driver (start)
+sudo apt install mesa-vulkan-drivers libvulkan1 vulkan-tools vulkan-validationlayers
+# gaming vulkan driver (end)
+echo "%%%### Install gaming driver End ###%%%"
+echo "%%%### Install gaming driver End ###%%%"
+echo "%%%### Install gaming driver End ###%%%"
+echo "%%%### Install gaming driver End ###%%%"
+####
+sleep 2
 ####
 ####
 echo "%%%### Install vivaldi browser (my favorite browser) Start ###%%%"
