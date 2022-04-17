@@ -89,6 +89,7 @@ echo "
                                        hi this script is for your new setup for intall new apps in sec you can change any think need our dont need to make it better 
                                                                                          </> with ❤️ by sina"
 ####
+####
 sleep 2
 echo "%%%### Script Started ###%%%"
 echo "%%%### Script Started ###%%%"
@@ -111,21 +112,57 @@ echo "%%%### Update and Upgrade End ###%%%"
 echo "%%%### Update and Upgrade End ###%%%"
 echo "%%%### Update and Upgrade End ###%%%" 
 ####
+####
 sleep 2
+####
 ####
 echo "%%%### Install Need Apps Start ###%%%"
 echo "%%%### Install Need Apps Start ###%%%"
 echo "%%%### Install Need Apps Start ###%%%"
 echo "%%%### Install Need Apps Start ###%%%"
 # python Install (start)
-sudo apt-get install python3 VLC nano vim barrier snapd steam discord spotify neofetch ssh -y
+sudo apt install docker git python3 vlc nano barrier snapd steam neofetch ssh  -y
 # python Install (end)
 echo "%%%### Install Need Apps End ###%%%"
 echo "%%%### Install Need Apps End ###%%%"
 echo "%%%### Install Need Apps End ###%%%"
 echo "%%%### Install Need Apps End ###%%%"
 ####
+####
 sleep 2
+####
+####
+echo "%%%### Install snapd Apps Start ###%%%"
+echo "%%%### Install snapd Apps Start ###%%%"
+echo "%%%### Install snapd Apps Start ###%%%"
+echo "%%%### Install snapd Apps Start ###%%%"
+# snapd Install (start)
+sudo snap install spotify discord -y
+# snapd Install (end)
+echo "%%%### Install snapd Apps End ###%%%"
+echo "%%%### Install snapd Apps End ###%%%"
+echo "%%%### Install snapd Apps End ###%%%"
+echo "%%%### Install snapd Apps End ###%%%"
+####
+####
+sleep 2
+####
+####
+echo "%%%### Install driver and firmware Start ###%%%"
+echo "%%%### Install driver and firmware Start ###%%%"
+echo "%%%### Install driver and firmware Start ###%%%"
+echo "%%%### Install driver and firmware Start ###%%%"
+# driver and firmware (start)
+sudo apt install firmware-linux firmware-linux-nonfree libdrm-amdgpu1 xserver-xorg-video-amdgpu
+# driver and firmware Install (end)
+echo "%%%### Install driver and firmware End ###%%%"
+echo "%%%### Install driver and firmware End ###%%%"
+echo "%%%### Install driver and firmware End ###%%%"
+echo "%%%### Install driver and firmware End ###%%%"
+####
+####
+sleep 2
+####
 ####
 echo "%%%### Install vivaldi browser (my favorite browser) Start ###%%%"
 echo "%%%### Install vivaldi browser (my favorite browser) Start ###%%%"
@@ -149,8 +186,7 @@ echo "%%%### Install Xrdp Start ###%%%"
 echo "%%%### Install Xrdp Start ###%%%"
 echo "%%%### Install Xrdp Start ###%%%"
 # Xrdp Install (start)
-sudo apt install xrdp
-
+sudo apt install xrdp -y
 # Xrdp Install (end)
 echo "%%%### Install Xrdp End ###%%%"
 echo "%%%### Install Xrdp End ###%%%"
@@ -164,7 +200,7 @@ echo "%%%### Install SSH Start ###%%%"
 echo "%%%### Install SSH Start ###%%%"
 echo "%%%### Install SSH Start ###%%%"
 # ssh Install (start)
-sudo apt-get install ssh
+sudo apt install ssh -y
 sudo systemctl start sshd.service
 
 user=$(whoami)
