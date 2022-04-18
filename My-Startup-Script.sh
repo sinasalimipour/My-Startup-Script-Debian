@@ -121,7 +121,7 @@ echo "%%%### Install Need Apps Start ###%%%"
 echo "%%%### Install Need Apps Start ###%%%"
 echo "%%%### Install Need Apps Start ###%%%"
 # python Install (start)
-sudo apt install docker git python3 vlc nano barrier snapd steam neofetch ssh  -y
+sudo apt install docker git python3 vlc nano barrier snapd steam neofetch ssh net-tools  -y
 # python Install (end)
 echo "%%%### Install Need Apps End ###%%%"
 echo "%%%### Install Need Apps End ###%%%"
